@@ -80,9 +80,13 @@ print(M ** 2)
 1	1	1
 ```
 Умеет решать СЛУ с одинаковым количеством переменных и уравнений. К примеру, рассмотрим следующую систему линейных уравнений
+
 ![](https://github.com/hzchet/Matrix-Calculator/blob/main/Linear-equation-example.png?raw=True)
+
 и запишем ее в матричной форме
+
 ![](https://github.com/hzchet/Matrix-Calculator/blob/main/Linear-equation-Matirx-form-example..png?raw=True)
+
 Для решения этогй системы можем использовать метод `solve`:
 ```python
 A = SquareMatrix([[2, 3, -1],
