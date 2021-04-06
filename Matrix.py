@@ -74,7 +74,6 @@ class Matrix:
         self.rows = result
         return Matrix(result)
 
-    @staticmethod
     def transposed(self):
         result = list(zip(*self.rows))
         return Matrix(result)
