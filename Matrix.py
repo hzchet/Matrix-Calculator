@@ -139,7 +139,7 @@ class SquareMatrix(Matrix):
             return ans
 
     def trace(self):
-        return sum([rows[i][i] for i in range(len(self.rows))])
+        return sum([self.rows[i][i] for i in range(len(self.rows))])
 
 
 if __name__ == '__main__':
