@@ -20,5 +20,6 @@ A = Matrix([[1, 2, 3]])
 B = Matrix([[4], [5], [6]])
 ```
 создаст следующие матрицы
+
 ![](https://github.com/hzchet/Matrix-Calculator/blob/main/Matrix_example1.png?raw=true)
 
